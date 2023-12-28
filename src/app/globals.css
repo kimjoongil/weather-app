@@ -87,12 +87,12 @@ body {
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
+/*   background: linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
-    rgb(var(--background-start-rgb));
+    rgb(var(--background-start-rgb)); */
 }
 
 a {
@@ -104,4 +104,16 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+
+button{  
+  border: none;
+  cursor: pointer;
+  outline: #000000;
+  font-size: 16px;
+  border-radius: 4px;
+  background-color: cadetblue;
+  color: #ffffff;
+  padding: 4px 8px;
 }
